@@ -1,6 +1,14 @@
-# autoparts-config-server
+# Spring cloud config
 
-http://config-3344.com:3344/application-dev.yml
+1.Generate keypair 
+ssh-keygen -t rsa -m PEM
 
-open "C:\Windows\System32\drivers\etc"
-add 127.0.0.1 config-3344.com in "hosts"
+2.Create two yml files for config-dev and config-test
+
+3.启动eureka
+
+4.启动config server
+
+5.打开浏览器看效果
+http://config-3344.com:3344/main/config-test.yml
+
