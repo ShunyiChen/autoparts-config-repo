@@ -1,2 +1,2 @@
-server:
-  port: 555
+config:
+  info: main branch,config-test.yml version=1 
